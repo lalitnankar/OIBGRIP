@@ -1,0 +1,49 @@
+body {
+  background-color: #1ae446;
+}
+#main {
+  width: 700px;
+  height: 300px;
+  margin-left: 300px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.39);
+  border-radius: 25px; 
+  transform: translate(-5%, -5%);
+  box-shadow: 5px 10px 10px #04719c;
+  font-family: 'Inconsolata', monospace;
+}
+#head {
+  font-weight: bolder;
+  font-size: 39px;
+  margin: 10px 0 40px 0;
+  text-align: center;
+}
+.celsius {
+  margin-bottom: 15px;
+  font-size: 27px;
+}
+.celsius span {
+  font-size: 35px;
+}
+.fahrenhit span {
+  font-size: 35px;
+}
+.fahrenhit {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+input {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: medium;
+  outline: none;
+}
+input:focus {
+  border-color: #3164ff;;
+}
